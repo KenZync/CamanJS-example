@@ -9,10 +9,10 @@
 
 
   <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro|Raleway:400,200,700' rel='stylesheet' type='text/css'>
-  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>  
-  <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
 
-    <script type="text/javascript" src="js/caman.full.min.js"></script>
+  <script type="text/javascript" src="js/caman.full.min.js"></script>
   <script type="text/javascript" src="js/camanFiltering.js"></script>
    
     <script type="text/javascript">
@@ -57,8 +57,8 @@
 
   <img
     id="example" 
-    src="/images/example1_600.jpg"
-    data-caman-hidpi="/images/example1_1200.jpg"
+    src="images/example1_600.jpg"
+    data-caman-hidpi="images/example1_1200.jpg"
   >
 
   <div id="Filters">
@@ -256,8 +256,11 @@
           step="1"
           value="0"
           data-filter="sharpen"
+          
+          id="price"
         >
         <span class="FilterValue">0</span>
+        <p id="result">OMG</p>
       </div>
     </div>
   
@@ -288,8 +291,8 @@
 
   <img 
     id="preset-example" 
-    src="/images/example2_600.jpg"
-    data-caman-hidpi="/images/example2_1200.jpg"
+    src="images/example2_600.jpg"
+    data-caman-hidpi="images/example2_1200.jpg"
   >
 
   <div id="PresetFilters">
